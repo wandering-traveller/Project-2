@@ -1,0 +1,196 @@
+body {
+    width: 1000px;
+    height: 1000px;
+}
+.container {
+    display: grid;
+    grid-template-rows: 1fr 0.1fr 1fr 1fr 0.1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1.2fr 2.8fr;
+    width: 1000px;
+    height: 1000px;
+    grid-column-gap: 3em;
+}
+.Photo {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #03A9F4;
+}
+.header {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.contact {
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #03A9F4;
+}
+.education {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-top: 1em;
+}
+.current {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.openclass {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.prev-1 {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.college {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.about {
+    grid-row-start: 5;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #03A9F4;
+}
+.experience {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.job {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.amazon {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.prev-job {
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.plastics {
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.hobbies {
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #03A9F4;
+    word-spacing: 0.45em;
+}
+.ref {
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.jeff {
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.polly {
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-left: 10em;
+}
+.titles {
+    text-align: center;
+    background-color: black;
+    color: #03A9F4;
+    padding: 0.2em;
+}
+h1 {
+    font-size: 4em;
+    margin-bottom: 0em;
+}
+h2 {
+    font-size: 2em;
+    margin: 0em;
+}
+img {
+    border-radius: 10em;
+    border-color: #4FC3F7;
+    border-width: 2.5px;
+    border-style: solid;
+}
+.fa-gamepad {
+    border-radius: 10em;
+    border-color: black;
+    border-width: 2.5px;
+    border-style: solid;
+    font-size: 2.5em;
+    padding: 0.1em;
+}
+.fa-fish {
+    border-radius: 10em;
+    border-color: black;
+    border-width: 2.5px;
+    border-style: solid;
+    font-size: 2.5em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+}
+.fa-headphones {
+    border-radius: 10em;
+    border-color: black;
+    border-width: 2.5px;
+    border-style: solid;
+    font-size: 2.5em;
+    padding: 0.1em;
+}
+.fa-film {
+    border-radius: 10em;
+    border-color: black;
+    border-width: 2.5px;
+    border-style: solid;
+    font-size: 2.5em;
+    padding: 0.1em;
+}
+.fa-school {
+    color: #03A9F4;
+}
+.fa-briefcase {
+    color: #03A9F4;
+}
+.fa-address-card {
+    color: #03A9F4;
+}
+hr {
+    border-color: #03A9F4;
+    border-width: 0.01em;
+    border-style: solid;
+}
