@@ -11,7 +11,7 @@ body {
     width: 1000px;
     height: 1000px;
 }
-.nav {
+nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -21,13 +21,13 @@ body {
     grid-column-end: 2;
     background-color: #03A9F4;
 }
-.header {
+header {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 3;
 }
-.section {
+section {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 2;
@@ -143,18 +143,18 @@ p {
     grid-template-rows: 0.1fr 0.3fr 1fr;
     margin: 0.5em;
     }
-    .header {
+    header {
         grid-row-start: 1;
         grid-row-end: 2;
         grid-column-start: 1;
         grid-column-end: 2;
     }
-    .nav {
+    nav {
         grid-row-start: 2;
         grid-row-end: 3;
         justify-content: unset;
     }
-    .section {
+    section {
         grid-row-start: 3;
         grid-row-end: 4;
         grid-column-start: 1;
